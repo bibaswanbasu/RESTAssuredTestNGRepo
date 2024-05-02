@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PetStoreSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="bb.RESTfw.utilities.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="TestUserDetail(failed)">
+    <classes>
+      <class name="bb.RESTfw.testcases.UserTest_DD">
+        <methods>
+          <include name="testGetUser" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- bb.RESTfw.testcases.UserTest_DD -->
+    </classes>
+  </test> <!-- TestUserDetail(failed) -->
+</suite> <!-- Failed suite [PetStoreSuite] -->

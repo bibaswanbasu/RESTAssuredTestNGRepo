@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="7.07" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Title of your feature" name="Create User Record" time="6.836">
+<system-out><![CDATA[
+Given the user provides the data for user creation..........................passed
+When the user sends a POST request to the create user endpoint..............passed
+Then the API should respond with a status code of 200.......................passed
+And the response should contain the created user details....................passed
+]]></system-out>
+</testcase>
+</testsuite>

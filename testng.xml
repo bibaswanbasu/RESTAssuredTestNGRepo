@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PetStoreSuite">
+	<listeners>
+		<listener class-name="bb.RESTfw.utilities.ExtentReportListener"></listener>
+	</listeners>
+	<test thread-count="5" name="TestUserDetail">
+		<classes>
+			<class name="bb.RESTfw.testcases.UserTest_DD" />
+			<!--<class name="bb.RESTfw.testcases.UserTest"/>-->
+		</classes>
+	</test> <!-- TestUserDetail -->
+</suite> <!-- PetStoreSuite -->

@@ -1,0 +1,10 @@
+bb\RESTfw\utilities\ExcelReader.class
+bb\RESTfw\utilities\ExcelReader$1.class
+bb\RESTfw\payload\CreateUser.class
+bb\RESTfw\utilities\DataProviders.class
+bb\RESTfw\testcases\UserTest.class
+bb\RESTfw\utilities\ExtentReportListener.class
+bb\RESTfw\endpoints\RoutesUsers.class
+bb\RESTfw\endpoints\UserEndPoints_FromClass.class
+bb\RESTfw\endpoints\UserEndPoints.class
+bb\RESTfw\testcases\UserTest_DD.class
